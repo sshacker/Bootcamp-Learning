@@ -9,9 +9,9 @@ public class GameRunner {
         this.game = game;
     }
     */
-    private SuperContraGame game;
+    private GamingConsole game;
 
-    public GameRunner(SuperContraGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
     public void runGame() {
