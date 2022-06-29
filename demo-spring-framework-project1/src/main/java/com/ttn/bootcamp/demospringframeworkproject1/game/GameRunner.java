@@ -1,5 +1,9 @@
 package com.ttn.bootcamp.demospringframeworkproject1.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
     /**
@@ -9,6 +13,7 @@ public class GameRunner {
         this.game = game;
     }
     */
+    @Autowired
     private GamingConsole game;
 
     public GameRunner(GamingConsole game) {
