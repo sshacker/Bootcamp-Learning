@@ -1,9 +1,6 @@
 package com.ttn.bootcamp.demospringframeworkproject1;
 
 import com.ttn.bootcamp.demospringframeworkproject1.game.GameRunner;
-import com.ttn.bootcamp.demospringframeworkproject1.game.GamingConsole;
-import com.ttn.bootcamp.demospringframeworkproject1.game.MarioGame;
-import com.ttn.bootcamp.demospringframeworkproject1.game.SuperContraGame;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
