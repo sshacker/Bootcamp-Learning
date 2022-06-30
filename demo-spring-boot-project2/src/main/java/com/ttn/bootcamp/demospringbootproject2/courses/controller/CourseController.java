@@ -14,4 +14,9 @@ public class CourseController {
     public List<Course> getAllCourses() {
         return Arrays.asList(new Course(1, "Java", "GeeksForGeeks"),new Course(2, "Python", "TutorialsPoint"));
     }
+
+    @GetMapping("/courses/3")
+    public Course getCourseDetails() {
+        return new Course(3, "JavaScript", "Javatpoint");
+    }
 }
